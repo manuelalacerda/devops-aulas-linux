@@ -1,0 +1,121 @@
+    1  git
+    2  cls
+    3  clear
+    4  cat /etc/os-realease
+    5  cat /etc/os-release
+    6  git clone https://github.com/manuelalacerda/devops-aulas-linux.git
+    7  echo "# devops-aulas-linux" >> README.md 
+    8  git init 
+    9  git add README.md 
+   10  git commit -m "primeiro commit" 
+   11  git branch -M main 
+   12  git remote add origin https://github.com/manuelalacerda/devops-aulas-linux.git
+   13  clear
+   14  git config user.name manuelalacerda
+   15  git config user.email manuelalacerda88@gmail.com
+   16  echo "# devops-aulas-linux" >> README.md 
+   17  git init 
+   18  git add README.md 
+   19  git commit -m "primeiro commit" 
+   20  git branch -M main 
+   21  git remote add origin https://github.com/manuelalacerda/devops-aulas-linux.git
+   22  echo "# devops-aulas-linux" >> README.md 
+   23  git init 
+   24  git add README.md 
+   25  git commit -m "primeiro commit" 
+   26  git branch -M main 
+   27  git remote add origin https://github.com/manuelalacerda/devops-aulas-linux.git
+   28  echo "# devops-aulas-linux" >> README.md 
+   29  git init 
+   30  git add README.md 
+   31  git commit -m "primeiro commit" 
+   32  git branch -M main 
+   33  git remote add origin https://github.com/manuelalacerda/devops-aulas-linux.git
+   34  echo "# devops-aulas-linux" >> README.md 
+   35  git init 
+   36  git add README.md 
+   37  git commit -m "primeiro commit" 
+   38  git branch -M main 
+   39  git remote add origin https://github.com/manuelalacerda/devops-aulas-linux.git
+   40  clear
+   41  git checkout "Aulas-Linux-Devops"
+   42  git checkout -b "Aulas-Linux-Devops"
+   43  pwd
+   44  ls -lah
+   45  cd devops-aulas-linux/
+   46  mkdir aula01
+   47  ls -la
+   48  pwd
+   49  mkdir dimdim_bank
+   50  cd dimdim_bank/
+   51  ls -l
+   52  mkdir clientes trasacoes relatorios backup logs
+   53  ls -l
+   54  cd clientes/
+   55  touch cliente_001_joao_silva.txt cliente_002_maria_santos.txt cliente_003_pedro_oliveira.txt
+   56  ls -l
+   57  cd .
+   58  cd ..
+   59  ls -l
+   60  trasacoes
+   61  cd trasacoes
+   62  cd ..
+   63  cd clientes/
+   64  cd../trasacoes
+   65  cd ..
+   66  cd trasacoes
+   67  touch transacoes_janeiro_2025.txt transacoes_fevereiro_2025.txt
+   68  ls -l
+   69  echo
+   70  cho "João Silva - CPF: 123.456.789-00 - Conta: 12345-6 - Saldo: R$ 1.500,00" > ../clientes/cliente_001_joao_silva.txt
+   71  echo "João Silva - CPF: 123.456.789-00 - Conta: 12345-6 - Saldo: R$ 1.500,00" > ../clientes/cliente_001_joao_silva.txt
+   72  ls -l
+   73  cd ..
+   74  cd clientes/
+   75  ls -l
+   76  cd ..
+   77  cd trasacoes/
+   78  echo "João Silva - CPF: 123.456.789-00 - Conta: 12345-6 - Saldo: R$ 1.500,00" > ../clientes/cliente_001_joao_silva.txt
+   79  echo "Maria Santos - CPF: 987.654.321-00 - Conta: 98765-4 - Saldo: R$ 2.800,00" > ../clientes/cliente_002_maria_santos.txt
+   80  echo "Pedro Oliveira - CPF: 456.789.123-00 - Conta: 45678-9 - Saldo: R$ 950,00" > ../clientes/cliente_003_pedro_oliveira.txt
+   81  echo "01/01/2025 - Transferência - João Silva -> Maria Santos - R$ 200,00" > transacoes_janeiro_2025.txt
+   82  echo "02/01/2025 - Depósito - Pedro Oliveira - R$ 500,00" >> transacoes_janeiro_2025.txt
+   83  echo "03/01/2025 - Saque - João Silva - R$ 100,00" >> transacoes_janeiro_2025.txt
+   84  echo "15/02/2025 - PIX - Maria Santos -> Pedro Oliveira - R$ 150,00" > transacoes_fevereiro_2025.txt
+   85  cat trasacoes_janeiro_2025.txt
+   86  cat trnasacoes_janeiro_2025.txt
+   87  cat transacoes_janeiro_2025.txt
+   88  cat ../clientes/cliente_001_joao_silva.txt 
+   89  cp
+   90  cp transacoes_janeiro_2025.txt../backup/
+   91  cp transacoes_janeiro_2025.txt ../backup/
+   92  cp ../clientes/cliente_001_joao_silva.txt ../backup/backup_cliente_001.txt
+   93  cd ../relatorios
+   94  mv ../transacoes/transacoes_fevereiro_2025.txt relatorio_mensal_fevereiro.txt
+   95  cd ..
+   96  ls -l
+   97  mv ../trasacoes/transacoes_fevereiro_2025.txt relatorio_mensal_fevereiro.txt
+   98  cd trasacoes/
+   99  ls -l
+  100  cd ..
+  101  cd relatorios/
+  102  mv ../trasacoes/transacoes_fevereiro_2025.txt relatorio_mensal_fevereiro.txt
+  103  cd ../trasacoes
+  104  echo "05/01/2025 - Pagamento de Conta - João Silva - R$ 80,00" >> transacoes_janeiro_2025.txt
+  105  echo "08/01/2025 - Transferência - Pedro Oliveira -> João Silva - R$ 300,00" >> transacoes_janeiro_2025.txt
+  106  echo "12/01/2025 - Depósito - Maria Santos - R$ 1.200,00" >> transacoes_janeiro_2025.txt
+  107  echo "18/01/2025 - Saque - Pedro Oliveira - R$ 200,00" >> transacoes_janeiro_2025.txt
+  108  echo "22/01/2025 - PIX - João Silva -> Maria Santos - R$ 450,00" >> transacoes_janeiro_2025.txt
+  109  echo "25/01/2025 - Pagamento de Boleto - Maria Santos - R$ 320,00" >> transacoes_janeiro_2025.txt
+  110  echo "28/01/2025 - Transferência - Maria Santos -> Pedro Oliveira - R$ 180,00" >> transacoes_janeiro_2025.txt
+  111  tail -10 transacoes_janeiro_2025.txt
+  112  cd ~/dimdim_bank
+  113  cd ..
+  114  ls -l
+  115  ls -la *
+  116  ls -l clientes
+  117  ls -l trasacoes
+  118  ls -l relatorios
+  119  ls -l backup
+  120  ls -l logs
+  121  history>aula23-03
