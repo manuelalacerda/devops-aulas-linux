@@ -1,0 +1,233 @@
+    1  git
+    2  cls
+    3  clear
+    4  cat /etc/os-realease
+    5  cat /etc/os-release
+    6  git clone https://github.com/manuelalacerda/devops-aulas-linux.git
+    7  echo "# devops-aulas-linux" >> README.md 
+    8  git init 
+    9  git add README.md 
+   10  git commit -m "primeiro commit" 
+   11  git branch -M main 
+   12  git remote add origin https://github.com/manuelalacerda/devops-aulas-linux.git
+   13  clear
+   14  git config user.name manuelalacerda
+   15  git config user.email manuelalacerda88@gmail.com
+   16  echo "# devops-aulas-linux" >> README.md 
+   17  git init 
+   18  git add README.md 
+   19  git commit -m "primeiro commit" 
+   20  git branch -M main 
+   21  git remote add origin https://github.com/manuelalacerda/devops-aulas-linux.git
+   22  echo "# devops-aulas-linux" >> README.md 
+   23  git init 
+   24  git add README.md 
+   25  git commit -m "primeiro commit" 
+   26  git branch -M main 
+   27  git remote add origin https://github.com/manuelalacerda/devops-aulas-linux.git
+   28  echo "# devops-aulas-linux" >> README.md 
+   29  git init 
+   30  git add README.md 
+   31  git commit -m "primeiro commit" 
+   32  git branch -M main 
+   33  git remote add origin https://github.com/manuelalacerda/devops-aulas-linux.git
+   34  echo "# devops-aulas-linux" >> README.md 
+   35  git init 
+   36  git add README.md 
+   37  git commit -m "primeiro commit" 
+   38  git branch -M main 
+   39  git remote add origin https://github.com/manuelalacerda/devops-aulas-linux.git
+   40  clear
+   41  git checkout "Aulas-Linux-Devops"
+   42  git checkout -b "Aulas-Linux-Devops"
+   43  pwd
+   44  ls -lah
+   45  cd devops-aulas-linux/
+   46  mkdir aula01
+   47  ls -la
+   48  pwd
+   49  mkdir dimdim_bank
+   50  cd dimdim_bank/
+   51  ls -l
+   52  mkdir clientes trasacoes relatorios backup logs
+   53  ls -l
+   54  cd clientes/
+   55  touch cliente_001_joao_silva.txt cliente_002_maria_santos.txt cliente_003_pedro_oliveira.txt
+   56  ls -l
+   57  cd .
+   58  cd ..
+   59  ls -l
+   60  trasacoes
+   61  cd trasacoes
+   62  cd ..
+   63  cd clientes/
+   64  cd../trasacoes
+   65  cd ..
+   66  cd trasacoes
+   67  touch transacoes_janeiro_2025.txt transacoes_fevereiro_2025.txt
+   68  ls -l
+   69  echo
+   70  cho "João Silva - CPF: 123.456.789-00 - Conta: 12345-6 - Saldo: R$ 1.500,00" > ../clientes/cliente_001_joao_silva.txt
+   71  echo "João Silva - CPF: 123.456.789-00 - Conta: 12345-6 - Saldo: R$ 1.500,00" > ../clientes/cliente_001_joao_silva.txt
+   72  ls -l
+   73  cd ..
+   74  cd clientes/
+   75  ls -l
+   76  cd ..
+   77  cd trasacoes/
+   78  echo "João Silva - CPF: 123.456.789-00 - Conta: 12345-6 - Saldo: R$ 1.500,00" > ../clientes/cliente_001_joao_silva.txt
+   79  echo "Maria Santos - CPF: 987.654.321-00 - Conta: 98765-4 - Saldo: R$ 2.800,00" > ../clientes/cliente_002_maria_santos.txt
+   80  echo "Pedro Oliveira - CPF: 456.789.123-00 - Conta: 45678-9 - Saldo: R$ 950,00" > ../clientes/cliente_003_pedro_oliveira.txt
+   81  echo "01/01/2025 - Transferência - João Silva -> Maria Santos - R$ 200,00" > transacoes_janeiro_2025.txt
+   82  echo "02/01/2025 - Depósito - Pedro Oliveira - R$ 500,00" >> transacoes_janeiro_2025.txt
+   83  echo "03/01/2025 - Saque - João Silva - R$ 100,00" >> transacoes_janeiro_2025.txt
+   84  echo "15/02/2025 - PIX - Maria Santos -> Pedro Oliveira - R$ 150,00" > transacoes_fevereiro_2025.txt
+   85  cat trasacoes_janeiro_2025.txt
+   86  cat trnasacoes_janeiro_2025.txt
+   87  cat transacoes_janeiro_2025.txt
+   88  cat ../clientes/cliente_001_joao_silva.txt 
+   89  cp
+   90  cp transacoes_janeiro_2025.txt../backup/
+   91  cp transacoes_janeiro_2025.txt ../backup/
+   92  cp ../clientes/cliente_001_joao_silva.txt ../backup/backup_cliente_001.txt
+   93  cd ../relatorios
+   94  mv ../transacoes/transacoes_fevereiro_2025.txt relatorio_mensal_fevereiro.txt
+   95  cd ..
+   96  ls -l
+   97  mv ../trasacoes/transacoes_fevereiro_2025.txt relatorio_mensal_fevereiro.txt
+   98  cd trasacoes/
+   99  ls -l
+  100  cd ..
+  101  cd relatorios/
+  102  mv ../trasacoes/transacoes_fevereiro_2025.txt relatorio_mensal_fevereiro.txt
+  103  cd ../trasacoes
+  104  echo "05/01/2025 - Pagamento de Conta - João Silva - R$ 80,00" >> transacoes_janeiro_2025.txt
+  105  echo "08/01/2025 - Transferência - Pedro Oliveira -> João Silva - R$ 300,00" >> transacoes_janeiro_2025.txt
+  106  echo "12/01/2025 - Depósito - Maria Santos - R$ 1.200,00" >> transacoes_janeiro_2025.txt
+  107  echo "18/01/2025 - Saque - Pedro Oliveira - R$ 200,00" >> transacoes_janeiro_2025.txt
+  108  echo "22/01/2025 - PIX - João Silva -> Maria Santos - R$ 450,00" >> transacoes_janeiro_2025.txt
+  109  echo "25/01/2025 - Pagamento de Boleto - Maria Santos - R$ 320,00" >> transacoes_janeiro_2025.txt
+  110  echo "28/01/2025 - Transferência - Maria Santos -> Pedro Oliveira - R$ 180,00" >> transacoes_janeiro_2025.txt
+  111  tail -10 transacoes_janeiro_2025.txt
+  112  cd ~/dimdim_bank
+  113  cd ..
+  114  ls -l
+  115  ls -la *
+  116  ls -l clientes
+  117  ls -l trasacoes
+  118  ls -l relatorios
+  119  ls -l backup
+  120  ls -l logs
+  121  history>aula23-03
+  122  ls -l
+  123  histort
+  124  history
+  125  cat aula23-03 
+  126  clea
+  127  clear
+  128  ls -la
+  129  cd ..
+  130  git status
+  131  git add .
+  132  git commit -m "Aulas 001 : Resolução de Exercicios Linux"
+  133  git push origin "Aulas-Linux-Devops"
+  134  git branch 
+  135  cd..
+  136  cd ..
+  137  git branch 
+  138* cd devops-aulas-linux
+  139  cd ~/devops-aulas-linux
+  140  git push origin main
+  141  git pull origin main --rebase
+  142  git push origin main
+  143  git status
+  144  ls -l
+  145  cd dimdim_bank
+  146  ls -l
+  147  git status
+  148  cd ..
+  149  ls -l
+  150  git status
+  151  cd ..
+  152  git status
+  153  cd devops-aulas-linux/
+  154  git add .
+  155  git commit -m "Aulas 001 : Resolução de Exercicios Linux"
+  156  git log --oneline -n 5
+  157  clear
+  158  git branch
+  159  git status
+  160  ls -l
+  161  cd aula01/
+  162  ls -l
+  163  history
+  164  cd ..
+  165  ls -l
+  166  cd devops-aulas-linux
+  167  git branch
+  168  git checkout -b aula-02-exercicios
+  169  ls -l
+  170  git branch
+  171  git checkout main
+  172  git checkout aula-02-exercicios 
+  173  git branch
+  174  ls -l
+  175  cleat
+  176  clear
+  177  cd dimdim_bank/
+  178  cd logs
+  179  touch sistema_dimdim.log acesso_usuarios.log transacoes_api.log erro_sistema.log
+  180  ls -l
+  181  echo "2025-01-28 09:15:32 [INFO] Sistema DimDim iniciado com sucesso" > sistema_dimdim.log
+  182  echo "2025-01-28 09:16:45 [INFO] Módulo de transações carregado" >> sistema_dimdim.log
+  183  echo "2025-01-28 09:17:12 [ERROR] Falha na conexão com banco de dados" >> sistema_dimdim.log
+  184  echo "2025-01-28 09:18:00 [INFO] Reconexão com banco estabelecida" >> sistema_dimdim.log
+  185  echo "2025-01-28 09:20:15 [WARN] Alto volume de transações detectado" >> sistema_dimdim.log
+  186  echo "2025-01-28 08:30:15 LOGIN joao.silva 192.168.1.100 SUCCESS" > acesso_usuarios.log
+  187  echo "2025-01-28 08:45:22 LOGIN maria.santos 192.168.1.101 SUCCESS" >> acesso_usuarios.log
+  188  echo "2025-01-28 09:12:33 LOGIN pedro.oliveira 192.168.1.102 FAILED" >> acesso_usuarios.log
+  189  echo "2025-01-28 09:13:01 LOGIN pedro.oliveira 192.168.1.102 SUCCESS" >> acesso_usuarios.log
+  190  echo "2025-01-28 09:45:18 LOGOUT joao.silva 192.168.1.100" >> acesso_usuarios.log
+  191  echo "2025-01-28 10:15:30 API_CALL transfer amount=200.00 from=12345-6 to=98765-4" > transacoes_api.log
+  192  echo "2025-01-28 10:16:45 API_CALL deposit amount=500.00 account=45678-9" >> transacoes_api.log
+  193  echo "2025-01-28 10:18:22 API_CALL withdrawal amount=100.00 account=12345-6" >> transacoes_api.log
+  194  echo "2025-01-28 10:25:15 API_CALL pix amount=150.00 from=98765-4 to=45678-9" >> transacoes_api.log
+  195  echo "2025-01-28 09:17:12 [ERROR] Database connection timeout - retrying..." > erro_sistema.log
+  196  echo "2025-01-28 11:30:45 [ERROR] Invalid transaction amount: -50.00" >> erro_sistema.log
+  197  echo "2025-01-28 14:22:18 [ERROR] User authentication failed for CPF 111.222.333-44" >> erro_sistema.log
+  198  cd ..
+  199  find .-name"*.txt"
+  200  ls -l
+  201  cd ~/dimdim_bank
+  202  find . -name "*.txt"
+  203  find . -name "*joao*"
+  204  find . -type d
+  205  grep -r "João Silva" .
+  206  grep "ERROR" logs/*.log
+  207  grep "SUCCESS" logs/acesso_usuarios.log
+  208  grep -E "(200|[3-9][0-9]{2}|[0-9]{4})" transacoes/transacoes_janeiro_2025.txt
+  209  grep -E "(200|[3-9][0-9]{2}|[0-9]{4})" trasacoes/transacoes_janeiro_2025.txt
+  210  grep -c "Transferência" trasacoes/transacoes_janeiro_2025.txt
+  211  df -h
+  212  df -h .
+  213  df -hT
+  214  ps
+  215  ps -aux
+  216  ps -aux | grep bash
+  217  top
+  218  cd ~
+  219  git status
+  220  git branch
+  221  git checkout Aulas-Linux-Devops 
+  222  git status
+  223  history>aula02
+  224  ls -l
+  225  git status
+  226  git add .
+  227  git rm -rf --cached .
+  228  rm -rf ~/.git
+  229  cd ~/devops-aulas-linux
+  230  ls -l
+  231  git status
+  232  git branch 
+  233  history>aula02
