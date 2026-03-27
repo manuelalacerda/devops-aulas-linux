@@ -1,0 +1,113 @@
+    1  git clone https://github.com/manuelalacerda/devops-aulas-linux.git
+    2  clear
+    3  cls
+    4  cl
+    5  ls
+    6  clear
+    7  ls
+    8  ls -l
+    9  git clone https://github.com/manuelalacerda/devops-aulas-linux.git
+   10  sudo dnf install git -y
+   11  git --version
+   12  L
+   13  git clone https://github.com/manuelalacerda/devops-aulas-linux.git
+   14  ls -l
+   15  cd devops-aulas-linux/
+   16  git branch
+   17  git checkout -b Aulas-Linux-Devops
+   18  git branch
+   19  sudo yum check-update
+   20  git status
+   21  cd ..
+   22  git branch
+   23  ls -l
+   24  cd devops-aulas-linux
+   25  ls -l
+   26  git branch
+   27  sudo yum check-update
+   28  opc
+   29  mkdir Projects
+   30  ls
+   31  cd Projects/
+   32  ls
+   33  ls -l
+   34  cd ..
+   35  git status
+   36  hystory
+   37  history
+   38  ls -l
+   39  mkdir Backup
+   40  cd Projects
+   41  mkdir Release
+   42  sudo yum install tree
+   43  rmdir Release
+   44  ls
+   45  mkdir Release
+   46  cd ~
+   47  touch file1
+   48  touch file2 file3 file4
+   49  cp
+   50  cd ~
+   51  cp file1 Projects/Release
+   52  cd ~
+   53  cp /home/opc/file1
+   54  rm -r Release
+   55  rm --help
+   56  cd ~/Projects
+   57  cd Projects
+   58  ls -l
+   59  mkdir Release
+   60  cd 
+   61  cd ~
+   62  touch file4b file4c
+   63  ls file4?
+   64  ls ?ile1
+   65  ls file *
+   66  ls *ile*
+   67  mv dile4* Backup
+   68  mv file4* Backup
+   69  mv file* Projects
+   70  mv file1 file1a
+   71  ls -a
+   72  sudo apt-get install man man-pages
+   73  sudo yum install man man-pages
+   74  sudo apt-get install bsdmainutils
+   75  man cal
+   76  man -k password
+   77  cal > test
+   78  cal test
+   79  cat > test
+   80  cal > test
+   81  cat test
+   82  ls /etc > test
+   83  more test
+   84  man ls | head -10
+   85  cat test | tail -5
+   86  ls -l /etc > test
+   87  cat test | tr 'a-z' 'A-Z'
+   88  cat test | tr 'aeiou' '*'
+   89  ps -d
+   90  sleep 10
+   91  sleep 100&
+   92  ps
+   93  sleep 1000&
+   94  ##remember pid
+   95  kill <pidnumber>
+   96  nano&
+   97  ps (get id of nano)
+   98  kill <nanoid>
+   99  ps
+  100  ps (get id of nano)
+  101  kill -9 <nanoid>
+  102  ps
+  103  nano&
+  104  fg
+  105  history
+  106  history>Aula03
+  107  ls -l
+  108  git status
+  109  git branch
+  110  cd devops-aulas-linux/
+  111  git status
+  112  history
+  113  history>Aula03
